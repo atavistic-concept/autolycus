@@ -31,7 +31,7 @@ in this repo), enable "install unknown apps" for your browser/files app, and ope
    device admin, and set the phone's own screen lock to **Swipe** so Autolycus is the
    lock you see. Keep secure-startup / encryption on.
 3. One permission needs a USB grant (silent location toggle):
-   `adb shell pm grant com.algoz.guard android.permission.WRITE_SECURE_SETTINGS`
+   `adb shell pm grant com.atavisticconcept.autolycus android.permission.WRITE_SECURE_SETTINGS`
 
 ## Notes
 
